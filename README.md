@@ -19,6 +19,12 @@
 [![Go 1.20+](https://img.shields.io/badge/go-1.20-9cf.svg)](https://golang.org/dl/)
 [![platforms](https://img.shields.io/badge/platforms-linux|windows|macos-inactive.svg)]()
 
+
+# The CUE Data Constraint Language (For Side Effects)
+
+Cue-SE is one fork of original cue plus some non-hermetic functions. These functions with side effects are 
+organized into packages end with "x", for example, `timex`.
+
 # The CUE Data Constraint Language
 
 _Configure, Unify, Execute_
@@ -32,7 +38,7 @@ allowing users familiar with JSON to get started quickly.
 
 ### What is it for?
 
-You can use CUE to
+You can use CUE-SE to
 
 - define a detailed validation schema for your data (manually or automatically from data)
 - reduce boilerplate in your data (manually or automatically from schema)
@@ -40,7 +46,8 @@ You can use CUE to
 - generate type definitions and validation code
 - merge JSON in a principled way
 - define and run declarative scripts
-
+- **[se]** customizable functions with side effects
+- **[se]** built-in non-hermetic libraries `timex`, `uuidx` and `httpx`
 
 ### How?
 
