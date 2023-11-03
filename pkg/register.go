@@ -47,4 +47,9 @@ import (
 	_ "github.com/wylswz/cue-se/pkg/tool/http"
 	_ "github.com/wylswz/cue-se/pkg/tool/os"
 	_ "github.com/wylswz/cue-se/pkg/uuid"
+	// se specific
+
+	_ "github.com/wylswz/cue-se/pkg/httpx"
+	_ "github.com/wylswz/cue-se/pkg/timex"
+	_ "github.com/wylswz/cue-se/pkg/uuidx"
 )

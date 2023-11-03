@@ -31,3 +31,5 @@ text/template
 text/tabwriter
 
 uuidx
+timex
+httpx
