@@ -1,14 +1,12 @@
 package httpx
 
 import (
-	"github.com/wylswz/cue-se/internal/pkg"
+	"encoding/json"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/pkg/httpx/clientprovider"
 	"io"
 	"net/http"
 	"net/url"
-)
-
-var (
-	c = http.Client{}
 )
 
 type HttpResponse struct {
@@ -25,11 +23,21 @@ func jsonReqHeader(h map[string][]string) map[string][]string {
 	return h
 }
 
-func JsonGet(urlStr string, parameters pkg.Struct, headers pkg.Struct) (*HttpResponse, error) {
-	return doRequest("GET", urlStr, structToMultiValMap(parameters), nil, jsonReqHeader(structToMultiValMap(headers)))
+func JsonGet(urlStr string, parametersV cue.Value, headersV cue.Value) (*HttpResponse, error) {
+	params, err := structToMultiValMap(parametersV)
+	if err != nil {
+		return nil, err
+	}
+	headers, err := structToMultiValMap(headersV)
+	if err != nil {
+		return nil, err
+	}
+
+	return doRequest("GET", urlStr, params, nil, jsonReqHeader(headers))
 }
 
 func doRequest(method string, urlStr string, parameters map[string][]string, body interface{}, headers map[string][]string) (*HttpResponse, error) {
+	c := clientprovider.C()
 	urlObj, err := url.Parse(urlStr)
 	if err != nil {
 		return nil, err
@@ -64,6 +72,15 @@ func doRequest(method string, urlStr string, parameters map[string][]string, bod
 
 }
 
-func structToMultiValMap(pkg.Struct) map[string][]string {
-	return nil
+func structToMultiValMap(s cue.Value) (map[string][]string, error) {
+	bts, err := s.MarshalJSON()
+	if err != nil {
+		return nil, err
+	}
+	res := map[string][]string{}
+	err = json.Unmarshal(bts, &res)
+	if err != nil {
+		return nil, err
+	}
+	return res, nil
 }

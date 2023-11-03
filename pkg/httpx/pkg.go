@@ -18,12 +18,12 @@ var p = &pkg.Package{
 		Name: "JsonGet",
 		Params: []pkg.Param{
 			{Kind: adt.StringKind},
-			{Kind: adt.StructKind},
-			{Kind: adt.StructKind},
+			{Kind: adt.TopKind},
+			{Kind: adt.TopKind},
 		},
 		Result: adt.TopKind,
 		Func: func(c *pkg.CallCtxt) {
-			urlStr, parameters, headers := c.String(0), c.Struct(1), c.Struct(2)
+			urlStr, parameters, headers := c.String(0), c.Value(1), c.Value(2)
 			if c.Do() {
 				c.Ret, c.Err = JsonGet(urlStr, parameters, headers)
 			}

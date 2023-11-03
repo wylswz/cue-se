@@ -1,0 +1,12 @@
+-- in.cue --
+import "httpx"
+
+let headers = {
+    "x-cue-se-status": ["201"]
+}
+let resp = httpx.JsonGet("https://dungeon-master.com/api/v1/sample/do-request", {}, headers)
+code: resp.code
+
+-- out/httpx --
+code: 201
+
