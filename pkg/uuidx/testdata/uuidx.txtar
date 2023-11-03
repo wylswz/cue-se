@@ -1,0 +1,7 @@
+-- in.cue --
+import "uuidx"
+
+same: uuidx.UUID() == uuidx.UUID()
+-- out/uuidx --
+same: false
+

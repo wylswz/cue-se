@@ -1,8 +1,8 @@
 package foo
 
 import (
-    "cuelang.org/go/foo"
-    "cuelang.org/go/bar"
+    "github.com/wylswz/cue-se/foo"
+    "github.com/wylswz/cue-se/bar"
     "time"
 )
 
@@ -10,15 +10,15 @@ import (
     time1 "time"
 
     // comment f2
-    f2 "cuelang.org/go/foo"
-    f1 "cuelang.org/go/foo"
+    f2 "github.com/wylswz/cue-se/foo"
+    f1 "github.com/wylswz/cue-se/foo"
 )
 
 import (
     time2 "time"
 
-    same "cuelang.org/go/foo" // comment 1
-    same2 "cuelang.org/go/foo" // comment 2
+    same "github.com/wylswz/cue-se/foo" // comment 1
+    same2 "github.com/wylswz/cue-se/foo" // comment 2
 )
 
 

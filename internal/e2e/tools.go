@@ -18,5 +18,5 @@
 package tools
 
 import (
-	_ "cuelang.org/go/cmd/cue"
+	_ "github.com/wylswz/cue-se/cmd/cue"
 )

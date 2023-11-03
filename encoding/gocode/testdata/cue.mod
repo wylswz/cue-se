@@ -1,1 +1,1 @@
-module: "cuelang.org/go/encoding/gocode/testdata"
+module: "github.com/wylswz/cue-se/encoding/gocode/testdata"

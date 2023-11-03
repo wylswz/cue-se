@@ -10,7 +10,7 @@ import (
 	"tool/os"
 	"tool/cli"
 
-	"cuelang.org/go/internal/ci/repo"
+	"github.com/wylswz/cue-se/internal/ci/repo"
 )
 
 command: release: {
@@ -38,7 +38,7 @@ command: release: {
 		}
 		$after: goMod
 		dir:    tempDir.path
-		cmd: ["go", "list", "-m", "-f", "{{.Version}}", "cuelang.org/go@latest"]
+		cmd: ["go", "list", "-m", "-f", "{{.Version}}", "github.com/wylswz/cue-se@latest"]
 		stdout: string
 	}
 
@@ -50,7 +50,7 @@ command: release: {
 	}
 
 	cueModRoot: exec.Run & {
-		cmd: ["go", "list", "-m", "-f", "{{.Dir}}", "cuelang.org/go"]
+		cmd: ["go", "list", "-m", "-f", "{{.Dir}}", "github.com/wylswz/cue-se"]
 		stdout: string
 	}
 

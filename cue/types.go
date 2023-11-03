@@ -1009,13 +1009,13 @@ You could file a bug with the above information at:
 	if o.concrete || o.final || o.resolveReferences {
 		f, err = p.Vertex(v.idx, pkgID, v.v)
 		if err != nil {
-			return bad(`"cuelang.org/go/internal/core/export".Vertex`, err)
+			return bad(`"github.com/wylswz/cue-se/internal/core/export".Vertex`, err)
 		}
 	} else {
 		p.AddPackage = true
 		f, err = p.Def(v.idx, pkgID, v.v)
 		if err != nil {
-			return bad(`"cuelang.org/go/internal/core/export".Def`, err)
+			return bad(`"github.com/wylswz/cue-se/internal/core/export".Def`, err)
 		}
 	}
 

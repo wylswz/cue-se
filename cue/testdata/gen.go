@@ -172,9 +172,9 @@ func (e *extractor) extractFromTestFunc(f *ast.FuncDecl) {
 				t := e.p.TypesInfo.TypeOf(x.Type)
 
 				switch t.String() {
-				case "[]cuelang.org/go/cue.testCase",
-					"[]cuelang.org/go/cue.exportTest":
-					// TODO: "[]cuelang.org/go/cue.subsumeTest",
+				case "[]github.com/wylswz/cue-se/cue.testCase",
+					"[]github.com/wylswz/cue-se/cue.exportTest":
+					// TODO: "[]github.com/wylswz/cue-se/cue.subsumeTest",
 				default:
 					return false
 				}

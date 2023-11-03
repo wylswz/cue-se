@@ -10,3 +10,7 @@ cmd/cue/cue
 # We use test module paths like mod.test or externalmod.test.
 # Don't exclude those as if they were test binaries.
 !**/*mod.test
+
+
+.idea
+vendor

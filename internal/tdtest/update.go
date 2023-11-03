@@ -204,7 +204,7 @@ func findFileAndPackage(path string, pkgs []*packages.Package) (*ast.File, *pack
 	return nil, nil
 }
 
-const typeT = "*cuelang.org/go/internal/tdtest.T"
+const typeT = "*github.com/wylswz/cue-se/internal/tdtest.T"
 
 // findCalls finds all call expressions within a given block for functions
 // or methods defined within the tdtest package.

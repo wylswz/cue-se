@@ -34,7 +34,7 @@ func main() {
 	inst := cue.Build(load.Instances([]string{"types.cue"}, &load.Config{
 		Dir:        cwd,
 		ModuleRoot: cwd,
-		Module:     "cuelang.org/go/cue/build",
+		Module:     "github.com/wylswz/cue-se/cue/build",
 	}))[0]
 	if inst.Err != nil {
 		log.Fatal(inst.Err)

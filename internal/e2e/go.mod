@@ -3,7 +3,7 @@ module test/e2e
 go 1.20
 
 require (
-	cuelang.org/go v0.0.0-00010101000000-000000000000
+	github.com/wylswz/cue-se v0.0.0-00010101000000-000000000000
 	github.com/google/go-github/v56 v56.0.0
 	github.com/rogpeppe/go-internal v1.11.1-0.20230926105539-32ae33786ecc
 	github.com/rogpeppe/retry v0.1.0
@@ -32,4 +32,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace cuelang.org/go => ../../
+replace github.com/wylswz/cue-se => ../../
