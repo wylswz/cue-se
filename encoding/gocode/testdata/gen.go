@@ -46,7 +46,7 @@ func main() {
 		inst := cue.Build(load.Instances([]string{pkg}, &load.Config{
 			Dir:        dir,
 			ModuleRoot: dir,
-			Module:     "cuelang.org/go/encoding/gocode/testdata",
+			Module:     "github.com/wylswz/cue-se/encoding/gocode/testdata",
 		}))[0]
 		if err := inst.Err; err != nil {
 			log.Fatal(err)
