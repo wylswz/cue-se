@@ -19,8 +19,8 @@ import (
 	"path"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
 )
 
 func ExampleValue_Format() {

@@ -22,8 +22,8 @@ import (
 	"github.com/kr/pretty"
 	"gopkg.in/yaml.v3"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/parser"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/parser"
 )
 
 func TestEncodeFile(t *testing.T) {

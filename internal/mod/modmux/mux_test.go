@@ -18,11 +18,11 @@ import (
 	"github.com/go-quicktest/qt"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/internal/mod/modregistry"
-	"cuelang.org/go/internal/mod/modresolve"
-	"cuelang.org/go/internal/mod/module"
-	modzip "cuelang.org/go/internal/mod/zip"
-	"cuelang.org/go/internal/registrytest"
+	"github.com/wylswz/cue-se/internal/mod/modregistry"
+	"github.com/wylswz/cue-se/internal/mod/modresolve"
+	"github.com/wylswz/cue-se/internal/mod/module"
+	modzip "github.com/wylswz/cue-se/internal/mod/zip"
+	"github.com/wylswz/cue-se/internal/registrytest"
 )
 
 const contents = `

@@ -27,13 +27,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/tdtest"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/internal/astinternal"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/debug"
+	"github.com/wylswz/cue-se/internal/core/runtime"
+	"github.com/wylswz/cue-se/internal/cuetest"
+	"github.com/wylswz/cue-se/internal/tdtest"
 )
 
 func getInstance(t *testing.T, body string) *Instance {

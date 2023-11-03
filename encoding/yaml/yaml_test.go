@@ -18,10 +18,10 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/format"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/format"
 )
 
 func TestYAML(t *testing.T) {

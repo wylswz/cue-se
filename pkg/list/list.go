@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"sort"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/pkg"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/pkg"
 )
 
 // Drop reports the suffix of list x after the first n elements,

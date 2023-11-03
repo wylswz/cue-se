@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"cuelang.org/go/cue/errors"
+	"github.com/wylswz/cue-se/cue/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

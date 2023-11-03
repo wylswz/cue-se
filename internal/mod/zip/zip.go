@@ -50,7 +50,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cuelang.org/go/internal/mod/module"
+	"github.com/wylswz/cue-se/internal/mod/module"
 )
 
 const (

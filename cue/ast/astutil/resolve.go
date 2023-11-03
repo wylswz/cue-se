@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // An ErrFunc processes errors.

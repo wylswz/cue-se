@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // ----------------------------------------------------------------------------

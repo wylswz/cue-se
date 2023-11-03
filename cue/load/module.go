@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/mod/modfile"
-	"cuelang.org/go/internal/mod/module"
-	"cuelang.org/go/internal/mod/mvs"
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal/mod/modfile"
+	"github.com/wylswz/cue-se/internal/mod/module"
+	"github.com/wylswz/cue-se/internal/mod/mvs"
+	"github.com/wylswz/cue-se/internal/mod/semver"
 )
 
 // loadModule loads the module file, resolves and downloads module

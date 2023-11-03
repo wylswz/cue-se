@@ -25,7 +25,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // An ErrorHandler is a generic error handler used throughout CUE packages.

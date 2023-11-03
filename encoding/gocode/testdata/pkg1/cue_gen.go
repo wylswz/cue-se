@@ -5,9 +5,9 @@ package pkg1
 import (
 	"fmt"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/encoding/gocode/gocodec"
-	_ "cuelang.org/go/pkg"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/encoding/gocode/gocodec"
+	_ "github.com/wylswz/cue-se/pkg"
 )
 
 var cuegenvalMyStruct = cuegenMake("MyStruct", &MyStruct{})

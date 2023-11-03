@@ -34,14 +34,14 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/tools/go/packages"
 
-	cueast "cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/cue/parser"
-	cuetoken "cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
+	cueast "github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/ast/astutil"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/cue/load"
+	"github.com/wylswz/cue-se/cue/parser"
+	cuetoken "github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal"
 )
 
 // TODO:

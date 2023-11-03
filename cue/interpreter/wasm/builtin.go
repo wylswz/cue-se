@@ -15,8 +15,8 @@
 package wasm
 
 import (
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/pkg"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/pkg"
 )
 
 // builtin attempts to load the named function of type typ from the

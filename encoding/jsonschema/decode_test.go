@@ -27,16 +27,16 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/json"
-	"cuelang.org/go/encoding/yaml"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/cuetest"
-	_ "cuelang.org/go/pkg"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/encoding/json"
+	"github.com/wylswz/cue-se/encoding/yaml"
+	"github.com/wylswz/cue-se/internal/astinternal"
+	"github.com/wylswz/cue-se/internal/cuetest"
+	_ "github.com/wylswz/cue-se/pkg"
 )
 
 // TestDecode reads the testdata/*.txtar files, converts the contained

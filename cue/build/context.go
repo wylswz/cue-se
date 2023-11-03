@@ -26,7 +26,7 @@
 package build
 
 import (
-	"cuelang.org/go/cue/ast"
+	"github.com/wylswz/cue-se/cue/ast"
 )
 
 // A Context keeps track of state of building instances and caches work.

@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/errors"
+	"github.com/wylswz/cue-se/cue/errors"
 )
 
 const quote = "`"

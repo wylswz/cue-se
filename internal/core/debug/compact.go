@@ -22,8 +22,8 @@ package debug
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/internal/core/adt"
 )
 
 type compactPrinter struct {

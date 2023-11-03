@@ -17,8 +17,8 @@ package runtime
 import (
 	"testing"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/build"
 )
 
 // TestPartiallyResolved tests that the resolve will detect the usage of

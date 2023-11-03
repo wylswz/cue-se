@@ -17,9 +17,9 @@ package pbinternal
 import (
 	"strconv"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // MatchBySymbol finds an integer value for a given symbol name, representing

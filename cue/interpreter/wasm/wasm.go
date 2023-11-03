@@ -18,15 +18,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
-	coreruntime "cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	coreruntime "github.com/wylswz/cue-se/internal/core/runtime"
 )
 
 // interpreter is a [cuecontext.ExternInterpreter] for Wasm files.

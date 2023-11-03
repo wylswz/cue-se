@@ -15,8 +15,8 @@
 package cue
 
 import (
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal/core/adt"
 )
 
 // Op indicates the operation at the top of an expression tree of the expression

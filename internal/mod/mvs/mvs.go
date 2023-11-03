@@ -12,7 +12,7 @@ import (
 	"sort"
 	"sync"
 
-	"cuelang.org/go/internal/mod/mvs/internal/par"
+	"github.com/wylswz/cue-se/internal/mod/mvs/internal/par"
 )
 
 // A Reqs is the requirement graph on which Minimal Version Selection (MVS) operates.

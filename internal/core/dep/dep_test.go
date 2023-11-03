@@ -21,15 +21,15 @@ import (
 	"testing"
 	"text/tabwriter"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/dep"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/internal/value"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/debug"
+	"github.com/wylswz/cue-se/internal/core/dep"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
+	"github.com/wylswz/cue-se/internal/value"
 )
 
 type visitFunc func(*adt.OpContext, *adt.ImportReference, *adt.Vertex, dep.VisitFunc) error

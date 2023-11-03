@@ -17,7 +17,7 @@ package adt
 import (
 	"github.com/cockroachdb/apd/v3"
 
-	"cuelang.org/go/internal"
+	"github.com/wylswz/cue-se/internal"
 )
 
 // SimplifyBounds collapses bounds if possible. The bound values must be

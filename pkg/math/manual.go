@@ -19,7 +19,7 @@ import (
 
 	"github.com/cockroachdb/apd/v3"
 
-	"cuelang.org/go/internal"
+	"github.com/wylswz/cue-se/internal"
 )
 
 func roundContext(rounder apd.Rounder) internal.Context {

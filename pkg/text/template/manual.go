@@ -18,7 +18,7 @@ import (
 	"strings"
 	"text/template"
 
-	"cuelang.org/go/cue"
+	"github.com/wylswz/cue-se/cue"
 )
 
 // Execute executes a Go-style template.

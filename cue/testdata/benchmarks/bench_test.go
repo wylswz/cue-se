@@ -19,11 +19,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/core/runtime"
+	"github.com/wylswz/cue-se/internal/cuetest"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
 	"golang.org/x/tools/txtar"
 )
 

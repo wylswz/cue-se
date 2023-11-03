@@ -15,17 +15,17 @@
 package cue
 
 import (
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/ast/astutil"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/ast/astutil"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/compile"
+	"github.com/wylswz/cue-se/internal/core/convert"
+	"github.com/wylswz/cue-se/internal/core/debug"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/core/runtime"
 )
 
 // A Context is used for creating CUE Values.

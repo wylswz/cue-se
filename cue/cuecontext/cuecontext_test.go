@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
 )
 
 func TestAPI(t *testing.T) {

@@ -22,16 +22,16 @@ package load
 import (
 	"path/filepath"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/encoding"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal/encoding"
 
 	// Trigger the unconditional loading of all core builtin packages if load
 	// is used. This was deemed the simplest way to avoid having to import
 	// this line explicitly, and thus breaking existing code, for the majority
 	// of cases, while not introducing an import cycle.
-	_ "cuelang.org/go/pkg"
+	_ "github.com/wylswz/cue-se/pkg"
 )
 
 type loader struct {

@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"cuelabs.dev/go/oci/ociregistry/ociclient"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/cuetxtar"
-	"cuelang.org/go/internal/registrytest"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
+	"github.com/wylswz/cue-se/internal/registrytest"
 )
 
 func TestModuleFetch(t *testing.T) {

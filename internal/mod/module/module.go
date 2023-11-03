@@ -27,7 +27,7 @@ import (
 	"sort"
 	"strings"
 
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/wylswz/cue-se/internal/mod/semver"
 )
 
 // A Version (for clients, a module.Version) is defined by a module path and version pair.

@@ -21,8 +21,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
 )
 
 type Sum struct {

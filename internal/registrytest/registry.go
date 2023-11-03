@@ -16,12 +16,12 @@ import (
 	"cuelabs.dev/go/oci/ociregistry/ociserver"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/mod/modfile"
-	"cuelang.org/go/internal/mod/modregistry"
-	"cuelang.org/go/internal/mod/module"
-	"cuelang.org/go/internal/mod/zip"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/internal/mod/modfile"
+	"github.com/wylswz/cue-se/internal/mod/modregistry"
+	"github.com/wylswz/cue-se/internal/mod/module"
+	"github.com/wylswz/cue-se/internal/mod/zip"
 )
 
 // New starts a registry instance that serves modules found inside the

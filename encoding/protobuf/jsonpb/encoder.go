@@ -17,12 +17,12 @@ package jsonpb
 import (
 	"strconv"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/protobuf/pbinternal"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/encoding/protobuf/pbinternal"
 )
 
 // TODO: Options:

@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"testing"
 
-	"cuelang.org/go/cue"
+	"github.com/wylswz/cue-se/cue"
 )
 
 func TestDiff(t *testing.T) {

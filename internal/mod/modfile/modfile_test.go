@@ -21,8 +21,8 @@ import (
 	"github.com/go-quicktest/qt"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/mod/module"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/internal/mod/module"
 )
 
 var tests = []struct {

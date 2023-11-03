@@ -19,7 +19,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"cuelang.org/go/cue"
+	"github.com/wylswz/cue-se/cue"
 )
 
 // Write formats text in columns. See golang.org/pkg/text/tabwriter for more

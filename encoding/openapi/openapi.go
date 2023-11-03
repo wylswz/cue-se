@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	cuejson "cuelang.org/go/encoding/json"
-	internaljson "cuelang.org/go/internal/encoding/json"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
+	cuejson "github.com/wylswz/cue-se/encoding/json"
+	internaljson "github.com/wylswz/cue-se/internal/encoding/json"
 )
 
 // A Config defines options for converting CUE to and from OpenAPI.

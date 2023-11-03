@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/encoding/protobuf/pbinternal"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/encoding/protobuf/pbinternal"
 
 	pbast "github.com/protocolbuffers/txtpbfmt/ast"
 	"github.com/protocolbuffers/txtpbfmt/parser"

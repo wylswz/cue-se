@@ -19,9 +19,9 @@ package path
 import (
 	"math/bits"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/runtime"
 )
 
 // ToFeatureType converts a SelectorType constant to a FeatureType. It assumes a single label bit is set.

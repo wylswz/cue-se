@@ -29,14 +29,14 @@ import (
 	"golang.org/x/tools/go/packages"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue"
-	cueast "cuelang.org/go/cue/ast"
-	cueformat "cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal"
-	internaljson "cuelang.org/go/internal/encoding/json"
-	"cuelang.org/go/pkg/encoding/yaml"
-	"cuelang.org/go/tools/fix"
+	"github.com/wylswz/cue-se/cue"
+	cueast "github.com/wylswz/cue-se/cue/ast"
+	cueformat "github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/internal"
+	internaljson "github.com/wylswz/cue-se/internal/encoding/json"
+	"github.com/wylswz/cue-se/pkg/encoding/yaml"
+	"github.com/wylswz/cue-se/tools/fix"
 )
 
 //go:generate go run gen.go

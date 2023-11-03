@@ -19,9 +19,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // A PackageError describes an error loading information about a package.

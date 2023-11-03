@@ -18,9 +18,9 @@ package base64
 import (
 	"encoding/base64"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // EncodedLen returns the length in bytes of the base64 encoding

@@ -25,14 +25,14 @@ import (
 	"strings"
 
 	"cuelabs.dev/go/oci/ociregistry"
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/wylswz/cue-se/internal/mod/semver"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 
-	"cuelang.org/go/internal/mod/modfile"
-	"cuelang.org/go/internal/mod/module"
-	modzip "cuelang.org/go/internal/mod/zip"
+	"github.com/wylswz/cue-se/internal/mod/modfile"
+	"github.com/wylswz/cue-se/internal/mod/module"
+	modzip "github.com/wylswz/cue-se/internal/mod/zip"
 )
 
 var ErrNotFound = fmt.Errorf("module not found")

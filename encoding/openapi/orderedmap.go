@@ -17,10 +17,10 @@ package openapi
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
-	internaljson "cuelang.org/go/internal/encoding/json"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/cue/token"
+	internaljson "github.com/wylswz/cue-se/internal/encoding/json"
 )
 
 // An OrderedMap is a set of key-value pairs that preserves the order in which

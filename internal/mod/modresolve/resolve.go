@@ -7,7 +7,7 @@ import (
 
 	"cuelabs.dev/go/oci/ociregistry/ociref"
 
-	"cuelang.org/go/internal/mod/module"
+	"github.com/wylswz/cue-se/internal/mod/module"
 )
 
 // Resolve resolves a module path (a.k.a. OCI repository name) to the

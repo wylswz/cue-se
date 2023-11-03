@@ -17,7 +17,7 @@ package astutil
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/ast"
+	"github.com/wylswz/cue-se/cue/ast"
 )
 
 // TODO: use ast.Walk or adopt that version to allow visitors.

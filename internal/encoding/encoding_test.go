@@ -19,8 +19,8 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/parser"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/parser"
 )
 
 func TestValidate(t *testing.T) {

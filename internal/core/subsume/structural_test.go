@@ -20,11 +20,11 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/compile"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/core/runtime"
 )
 
 func TestStructural(t *testing.T) {

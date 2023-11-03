@@ -21,7 +21,7 @@ package path_test
 import (
 	"fmt"
 
-	"cuelang.org/go/pkg/path"
+	"github.com/wylswz/cue-se/pkg/path"
 )
 
 func ExampleExt() {

@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 func testMod(dir string) string {

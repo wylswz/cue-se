@@ -23,15 +23,15 @@ import (
 	"fmt"
 	"os"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/internal/filetypes"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/internal/filetypes"
 
 	// Trigger the unconditional loading of all core builtin packages if load
 	// is used. This was deemed the simplest way to avoid having to import
 	// this line explicitly, and thus breaking existing code, for the majority
 	// of cases, while not introducing an import cycle.
-	_ "cuelang.org/go/pkg"
+	_ "github.com/wylswz/cue-se/pkg"
 )
 
 // Instances returns the instances named by the command line arguments 'args'.

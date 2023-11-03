@@ -23,15 +23,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/interpreter/wasm"
-	"cuelang.org/go/cue/stats"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/cueexperiment"
-	"cuelang.org/go/internal/encoding"
-	"cuelang.org/go/internal/filetypes"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/interpreter/wasm"
+	"github.com/wylswz/cue-se/cue/stats"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/cueexperiment"
+	"github.com/wylswz/cue-se/internal/encoding"
+	"github.com/wylswz/cue-se/internal/filetypes"
 )
 
 // TODO: commands

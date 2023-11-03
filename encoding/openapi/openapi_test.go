@@ -24,13 +24,13 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/encoding/openapi"
-	"cuelang.org/go/internal/cuetest"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/load"
+	"github.com/wylswz/cue-se/encoding/openapi"
+	"github.com/wylswz/cue-se/internal/cuetest"
 )
 
 func TestParseDefinitions(t *testing.T) {

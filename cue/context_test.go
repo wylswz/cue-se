@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
 	"github.com/go-quicktest/qt"
 	"golang.org/x/tools/txtar"
 )

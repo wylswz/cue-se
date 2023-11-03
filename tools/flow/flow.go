@@ -73,13 +73,13 @@ import (
 	"strings"
 	"sync"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/stats"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/value"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/stats"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/convert"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/value"
 )
 
 var (

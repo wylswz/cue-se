@@ -17,7 +17,7 @@ package tdtest_test
 import (
 	"testing"
 
-	"cuelang.org/go/internal/tdtest"
+	"github.com/wylswz/cue-se/internal/tdtest"
 )
 
 // TODO: write a proper test

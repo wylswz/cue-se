@@ -22,16 +22,16 @@ import (
 
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/core/validate"
-	"cuelang.org/go/internal/cuetxtar"
-	_ "cuelang.org/go/pkg"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/debug"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/core/runtime"
+	"github.com/wylswz/cue-se/internal/core/validate"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
+	_ "github.com/wylswz/cue-se/pkg"
 )
 
 var (

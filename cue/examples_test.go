@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"os"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
 	"golang.org/x/tools/txtar"
 )
 

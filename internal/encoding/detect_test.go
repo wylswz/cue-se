@@ -17,8 +17,8 @@ package encoding
 import (
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/build"
 )
 
 func TestDetect(t *testing.T) {

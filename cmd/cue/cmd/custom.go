@@ -27,17 +27,17 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	itask "cuelang.org/go/internal/task"
-	"cuelang.org/go/internal/value"
-	_ "cuelang.org/go/pkg/tool/cli" // Register tasks
-	_ "cuelang.org/go/pkg/tool/exec"
-	_ "cuelang.org/go/pkg/tool/file"
-	_ "cuelang.org/go/pkg/tool/http"
-	_ "cuelang.org/go/pkg/tool/os"
-	"cuelang.org/go/tools/flow"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
+	itask "github.com/wylswz/cue-se/internal/task"
+	"github.com/wylswz/cue-se/internal/value"
+	_ "github.com/wylswz/cue-se/pkg/tool/cli" // Register tasks
+	_ "github.com/wylswz/cue-se/pkg/tool/exec"
+	_ "github.com/wylswz/cue-se/pkg/tool/file"
+	_ "github.com/wylswz/cue-se/pkg/tool/http"
+	_ "github.com/wylswz/cue-se/pkg/tool/os"
+	"github.com/wylswz/cue-se/tools/flow"
 )
 
 const commandSection = "command"

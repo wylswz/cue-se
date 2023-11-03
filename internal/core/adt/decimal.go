@@ -15,7 +15,7 @@
 package adt
 
 import (
-	"cuelang.org/go/internal"
+	"github.com/wylswz/cue-se/internal"
 	"github.com/cockroachdb/apd/v3"
 )
 

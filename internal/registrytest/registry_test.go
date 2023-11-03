@@ -14,8 +14,8 @@ import (
 	"cuelabs.dev/go/oci/ociregistry/ocifilter"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/internal/mod/modregistry"
-	"cuelang.org/go/internal/mod/module"
+	"github.com/wylswz/cue-se/internal/mod/modregistry"
+	"github.com/wylswz/cue-se/internal/mod/module"
 )
 
 func TestRegistry(t *testing.T) {

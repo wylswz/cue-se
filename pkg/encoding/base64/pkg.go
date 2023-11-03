@@ -3,8 +3,8 @@
 package base64
 
 import (
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/pkg"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/pkg"
 )
 
 func init() {

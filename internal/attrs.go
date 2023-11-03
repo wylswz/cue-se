@@ -19,10 +19,10 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/scanner"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/cue/scanner"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // AttrKind indicates the location of an attribute within CUE source.

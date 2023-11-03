@@ -32,10 +32,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cmd/cue/cmd"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/internal/copy"
-	"cuelang.org/go/internal/cuetest"
+	"github.com/wylswz/cue-se/cmd/cue/cmd"
+	"github.com/wylswz/cue-se/cue/load"
+	"github.com/wylswz/cue-se/internal/copy"
+	"github.com/wylswz/cue-se/internal/cuetest"
 )
 
 var (

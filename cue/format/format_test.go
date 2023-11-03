@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/cuetest"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal"
+	"github.com/wylswz/cue-se/internal/cuetest"
 )
 
 var (

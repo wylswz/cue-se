@@ -14,7 +14,7 @@
 
 package build
 
-import "cuelang.org/go/cue/errors"
+import "github.com/wylswz/cue-se/cue/errors"
 
 // A File represents a file that is part of the build process.
 type File struct {

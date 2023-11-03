@@ -26,11 +26,11 @@ import (
 	"github.com/cockroachdb/apd/v3"
 	"github.com/google/go-cmp/cmp"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/debug"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/convert"
+	"github.com/wylswz/cue-se/internal/core/debug"
+	"github.com/wylswz/cue-se/internal/core/runtime"
 )
 
 func mkBigInt(a int64) (v apd.Decimal) { v.SetInt64(a); return }

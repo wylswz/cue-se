@@ -19,12 +19,12 @@ package value
 import (
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/convert"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/types"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/convert"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/core/runtime"
+	"github.com/wylswz/cue-se/internal/types"
 )
 
 func ConvertToRuntime(c *cue.Context) *cue.Runtime {

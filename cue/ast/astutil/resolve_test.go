@@ -20,9 +20,9 @@ import (
 	"testing"
 	"text/tabwriter"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/astinternal"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/internal/astinternal"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
 )
 
 func TestResolve(t *testing.T) {

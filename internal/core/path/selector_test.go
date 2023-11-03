@@ -17,9 +17,9 @@ package path
 import (
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/runtime"
 )
 
 // TestToFeatureType also tests that SelectorType and FeatureType are in sync.

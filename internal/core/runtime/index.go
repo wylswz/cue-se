@@ -17,8 +17,8 @@ package runtime
 import (
 	"sync"
 
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/wylswz/cue-se/internal"
+	"github.com/wylswz/cue-se/internal/core/adt"
 )
 
 func (r *Runtime) IndexToString(i int64) string {

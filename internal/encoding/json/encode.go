@@ -20,12 +20,12 @@ import (
 	"math/big"
 	"strings"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/astinternal"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal"
+	"github.com/wylswz/cue-se/internal/astinternal"
 )
 
 // Marshal is a replacement for [json.Marshal] without HTML escaping.

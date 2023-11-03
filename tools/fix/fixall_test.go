@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
 )
 
 func TestInstances(t *testing.T) {

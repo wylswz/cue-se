@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"testing"
 
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal/core/eval"
-	"cuelang.org/go/internal/core/export"
-	"cuelang.org/go/internal/core/runtime"
-	"cuelang.org/go/internal/core/validate"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/internal/core/eval"
+	"github.com/wylswz/cue-se/internal/core/export"
+	"github.com/wylswz/cue-se/internal/core/runtime"
+	"github.com/wylswz/cue-se/internal/core/validate"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
 )
 
 func Run(name string, t *testing.T) {

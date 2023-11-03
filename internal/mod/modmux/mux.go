@@ -22,7 +22,7 @@ import (
 
 	"cuelabs.dev/go/oci/ociregistry"
 
-	"cuelang.org/go/internal/mod/modresolve"
+	"github.com/wylswz/cue-se/internal/mod/modresolve"
 )
 
 // New returns a registry implementation that uses the given

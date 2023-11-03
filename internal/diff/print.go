@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"io"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
 )
 
 // Print the differences between two structs represented by an edit script.

@@ -43,12 +43,12 @@ import (
 
 	"golang.org/x/tools/go/packages"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	cueformat "cuelang.org/go/cue/format"
-	"cuelang.org/go/internal"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/errors"
+	cueformat "github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/internal"
+	"github.com/wylswz/cue-se/internal/core/runtime"
 )
 
 const genFile = "pkg.go"

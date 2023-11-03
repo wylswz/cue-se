@@ -20,9 +20,9 @@ import (
 	"log"
 	"os"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/encoding/gocode"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/load"
+	"github.com/wylswz/cue-se/encoding/gocode"
 )
 
 func main() {

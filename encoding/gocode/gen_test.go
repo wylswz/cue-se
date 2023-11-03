@@ -22,9 +22,9 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/encoding/gocode/testdata/pkg1"
-	"cuelang.org/go/encoding/gocode/testdata/pkg2"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/encoding/gocode/testdata/pkg1"
+	"github.com/wylswz/cue-se/encoding/gocode/testdata/pkg2"
 )
 
 type validator interface {

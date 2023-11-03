@@ -34,10 +34,10 @@ import (
 	"github.com/rogpeppe/go-internal/testscript"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/cuetest"
-	"cuelang.org/go/internal/registrytest"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/internal/cuetest"
+	"github.com/wylswz/cue-se/internal/registrytest"
 )
 
 const (

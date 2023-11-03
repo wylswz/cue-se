@@ -17,8 +17,8 @@ package pkg
 import (
 	"fmt"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/internal/core/adt"
 )
 
 type Bottomer interface {

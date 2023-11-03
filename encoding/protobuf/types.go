@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"text/scanner"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/cue/token"
 	"github.com/emicklei/proto"
 )
 

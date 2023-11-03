@@ -32,9 +32,9 @@
 package jsonschema
 
 import (
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // Extract converts JSON Schema data into an equivalent CUE representation.

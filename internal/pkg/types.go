@@ -15,7 +15,7 @@
 package pkg
 
 import (
-	"cuelang.org/go/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/adt"
 )
 
 // List represents a CUE list, which can be open or closed.

@@ -24,11 +24,11 @@ import (
 	"text/template"
 	"unicode"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/internal/str"
-	"cuelang.org/go/internal/tdtest"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/internal/str"
+	"github.com/wylswz/cue-se/internal/tdtest"
 )
 
 // TestLoad is an end-to-end test.

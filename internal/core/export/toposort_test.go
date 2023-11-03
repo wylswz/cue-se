@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/runtime"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/runtime"
 	"github.com/google/go-cmp/cmp"
 )
 

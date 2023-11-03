@@ -7,9 +7,9 @@ import (
 	"cuelabs.dev/go/oci/ociregistry"
 	"cuelabs.dev/go/oci/ociregistry/ociclient"
 
-	"cuelang.org/go/internal/cueexperiment"
-	"cuelang.org/go/internal/mod/modmux"
-	"cuelang.org/go/internal/mod/modresolve"
+	"github.com/wylswz/cue-se/internal/cueexperiment"
+	"github.com/wylswz/cue-se/internal/mod/modmux"
+	"github.com/wylswz/cue-se/internal/mod/modresolve"
 )
 
 func getRegistry() (ociregistry.Interface, error) {

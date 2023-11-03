@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"io"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	cueyaml "cuelang.org/go/internal/encoding/yaml"
-	"cuelang.org/go/internal/third_party/yaml"
-	pkgyaml "cuelang.org/go/pkg/encoding/yaml"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	cueyaml "github.com/wylswz/cue-se/internal/encoding/yaml"
+	"github.com/wylswz/cue-se/internal/third_party/yaml"
+	pkgyaml "github.com/wylswz/cue-se/pkg/encoding/yaml"
 )
 
 // Extract parses the YAML specified by src to a CUE expression. If

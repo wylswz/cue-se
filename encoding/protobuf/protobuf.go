@@ -92,13 +92,13 @@ import (
 
 	"github.com/mpvl/unique"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal"
 
 	// Generated protobuf CUE may use builtins. Ensure that these can always be
 	// found, even if the user does not use cue/load or another package that
@@ -107,7 +107,7 @@ import (
 	// TODO: consider whether just linking in the necessary packages suffices.
 	// It probably does, but this may reorder some of the imports, which may,
 	// in turn, change the numbering, which can be confusing while debugging.
-	_ "cuelang.org/go/pkg"
+	_ "github.com/wylswz/cue-se/pkg"
 )
 
 // Config specifies the environment into which to parse a proto definition file.

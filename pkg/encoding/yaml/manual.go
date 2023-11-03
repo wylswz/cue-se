@@ -18,12 +18,12 @@ import (
 	"bytes"
 	"io"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	cueyaml "cuelang.org/go/internal/encoding/yaml"
-	"cuelang.org/go/internal/pkg"
-	"cuelang.org/go/internal/third_party/yaml"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/errors"
+	cueyaml "github.com/wylswz/cue-se/internal/encoding/yaml"
+	"github.com/wylswz/cue-se/internal/pkg"
+	"github.com/wylswz/cue-se/internal/third_party/yaml"
 )
 
 // Marshal returns the YAML encoding of v.

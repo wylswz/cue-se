@@ -21,8 +21,8 @@ import (
 
 	"github.com/emicklei/proto"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // failf panics with a marked error that can be intercepted upon returning

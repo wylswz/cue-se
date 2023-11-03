@@ -17,12 +17,12 @@ package openapi
 import (
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/encoding/jsonschema"
-	"cuelang.org/go/internal"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/encoding/jsonschema"
+	"github.com/wylswz/cue-se/internal"
 )
 
 // Extract converts OpenAPI definitions to an equivalent CUE representation.

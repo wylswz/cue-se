@@ -15,8 +15,8 @@
 package load
 
 import (
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/format"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/format"
 )
 
 // A Source represents file contents.

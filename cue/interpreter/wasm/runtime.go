@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"cuelang.org/go/internal/pkg"
+	"github.com/wylswz/cue-se/internal/pkg"
 	"github.com/tetratelabs/wazero"
 	"github.com/tetratelabs/wazero/api"
 	"github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"

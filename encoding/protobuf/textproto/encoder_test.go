@@ -18,10 +18,10 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/encoding/protobuf/textproto"
-	"cuelang.org/go/internal/cuetxtar"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/encoding/protobuf/textproto"
+	"github.com/wylswz/cue-se/internal/cuetxtar"
 )
 
 func TestEncode(t *testing.T) {

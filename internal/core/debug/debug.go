@@ -25,9 +25,9 @@ import (
 	"strconv"
 	"strings"
 
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/literal"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/literal"
+	"github.com/wylswz/cue-se/internal/core/adt"
 )
 
 const (

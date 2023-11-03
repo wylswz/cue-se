@@ -29,7 +29,7 @@ import (
 
 	"github.com/mpvl/unique"
 
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 // New is a convenience wrapper for errors.New in the core library.

@@ -17,14 +17,14 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/format"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/encoding"
-	"cuelang.org/go/tools/fix"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/format"
+	"github.com/wylswz/cue-se/cue/load"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal/encoding"
+	"github.com/wylswz/cue-se/tools/fix"
 )
 
 func newFmtCmd(c *Command) *cobra.Command {

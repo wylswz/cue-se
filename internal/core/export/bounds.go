@@ -15,8 +15,8 @@
 package export
 
 import (
-	"cuelang.org/go/cue/ast"
-	"cuelang.org/go/internal/core/adt"
+	"github.com/wylswz/cue-se/cue/ast"
+	"github.com/wylswz/cue-se/internal/core/adt"
 	"github.com/cockroachdb/apd/v3"
 )
 

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/tools/flow"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/tools/flow"
 )
 
 func Example() {

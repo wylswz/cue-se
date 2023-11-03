@@ -12,9 +12,9 @@ import (
 	"github.com/rogpeppe/go-internal/testscript"
 	"golang.org/x/tools/txtar"
 
-	"cuelang.org/go/cmd/cue/cmd"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/internal/cuetest"
+	"github.com/wylswz/cue-se/cmd/cue/cmd"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/internal/cuetest"
 )
 
 // TestLatest checks that the examples match the latest language standard,

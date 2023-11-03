@@ -15,9 +15,9 @@
 package wasm
 
 import (
-	"cuelang.org/go/internal/core/adt"
-	"cuelang.org/go/internal/core/compile"
-	"cuelang.org/go/internal/pkg"
+	"github.com/wylswz/cue-se/internal/core/adt"
+	"github.com/wylswz/cue-se/internal/core/compile"
+	"github.com/wylswz/cue-se/internal/pkg"
 )
 
 // typ represents the Go and CUE types that we can exchange with Wasm.

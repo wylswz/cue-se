@@ -20,10 +20,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/load"
-	"cuelang.org/go/encoding/gocode"
-	_ "cuelang.org/go/pkg"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/load"
+	"github.com/wylswz/cue-se/encoding/gocode"
+	_ "github.com/wylswz/cue-se/pkg"
 )
 
 func main() {

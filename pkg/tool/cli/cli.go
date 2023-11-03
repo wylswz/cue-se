@@ -20,8 +20,8 @@ import (
 	"io"
 	"strings"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/internal/task"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/internal/task"
 )
 
 func init() {

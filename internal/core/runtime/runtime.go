@@ -15,7 +15,7 @@
 package runtime
 
 import (
-	"cuelang.org/go/cue/build"
+	"github.com/wylswz/cue-se/cue/build"
 )
 
 // A Runtime maintains data structures for indexing and reuse for evaluation.

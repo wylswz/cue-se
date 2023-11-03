@@ -19,14 +19,14 @@ import (
 	"fmt"
 	"sync"
 
-	"cuelang.org/go/internal/mod/semver"
+	"github.com/wylswz/cue-se/internal/mod/semver"
 
-	"cuelang.org/go/cue"
-	"cuelang.org/go/cue/cuecontext"
-	"cuelang.org/go/cue/errors"
-	"cuelang.org/go/cue/parser"
-	"cuelang.org/go/cue/token"
-	"cuelang.org/go/internal/mod/module"
+	"github.com/wylswz/cue-se/cue"
+	"github.com/wylswz/cue-se/cue/cuecontext"
+	"github.com/wylswz/cue-se/cue/errors"
+	"github.com/wylswz/cue-se/cue/parser"
+	"github.com/wylswz/cue-se/cue/token"
+	"github.com/wylswz/cue-se/internal/mod/module"
 )
 
 //go:embed schema.cue

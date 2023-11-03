@@ -18,8 +18,8 @@ import (
 	"strings"
 	"testing"
 
-	"cuelang.org/go/cue/build"
-	"cuelang.org/go/cue/errors"
+	"github.com/wylswz/cue-se/cue/build"
+	"github.com/wylswz/cue-se/cue/errors"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 )

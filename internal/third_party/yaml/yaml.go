@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"cuelang.org/go/cue/ast"
+	"github.com/wylswz/cue-se/cue/ast"
 )
 
 // Unmarshal decodes the first document found within the in byte slice

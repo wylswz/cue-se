@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"testing"
 
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/token"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 )

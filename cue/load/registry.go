@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 
 	"cuelabs.dev/go/oci/ociregistry"
-	"cuelang.org/go/internal/mod/modfile"
-	"cuelang.org/go/internal/mod/modregistry"
-	"cuelang.org/go/internal/mod/module"
-	"cuelang.org/go/internal/mod/zip"
+	"github.com/wylswz/cue-se/internal/mod/modfile"
+	"github.com/wylswz/cue-se/internal/mod/modregistry"
+	"github.com/wylswz/cue-se/internal/mod/module"
+	"github.com/wylswz/cue-se/internal/mod/zip"
 )
 
 // registryClient implements the protocol for talking to

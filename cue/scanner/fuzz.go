@@ -17,7 +17,7 @@
 package scanner
 
 import (
-	"cuelang.org/go/cue/token"
+	"github.com/wylswz/cue-se/cue/token"
 )
 
 func Fuzz(b []byte) int {
